@@ -1,38 +1,38 @@
 <html>
 <head>
-    <link href="Styles/SIte.css" rel="stylesheet" />
+    <link href="Styles/bootstrap-theme.css" rel="stylesheet" />
+    <!--<link href="Styles/bootstrap-theme.min.css" rel="stylesheet" />-->
+    <link href="Styles/bootstrap.css" rel="stylesheet" />
+    <!--<link href="Styles/bootstrap.min.css" rel="stylesheet" />-->
+    <link href="Styles/Site.css" rel="stylesheet" />
+
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <a id="site_logo" href="Index.html">Shoppica</a>
-            <div id="header_right">
-                <div>
-                    <ul id="nav_list" class="horizontal">
-                        <li><a>Registration</a></li>
-                        <li><a>Log in</a></li>
-                    </ul>
+    <div id="main" class="container">
+        <div id="header" class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 auto-overflow">
+                    <a id="site_logo" href="index.html">Shoppica store - Premium e-Commerce Theme</a>
                 </div>
-                <div id="search_bar">
-                    <input type="text"/>
-                    <select>
-                        <option>Category1</option>
-                        <option>Category2</option>
-                    </select>
-                    <button id="search-button" class="themeBackground">.</button>
+                <div id="registration-search" class="col-md-8">
+                    <div class="auto-overflow">
+                        <ul id="register-login" class="horizontal-list">
+                            <li><a>Регистрация</a></li>
+                            <li><a>Войти</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div id="search_bar" class="auto-overflow">
+                            <button id="search-button" class="btn btn-default">.</button>
+                            <select class="form-control">
+                                <option>Category1</option>
+                                <option>Category2</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="Введите слово" />
+                        </div>
+                        <div id="advanced-search"><a>advanced search</a></div>
+                    </div>
                 </div>
-                <div><a class="themeColor">Advanced search</a></div>
-            </div>
-            <div id="menu">
-                <ul class="horizontal">
-                    <li id="menu_home"><a>Home</a></li>
-                    <li><a>Hello</a></li>
-                    <li><a>World</a></li>
-                    <li><a>Hello</a></li>
-                    <li><a>World</a></li>
-                    <li><a>Hello</a></li>
-                    <li><a>World</a></li>
-                </ul>
             </div>
         </div>
     </div>
