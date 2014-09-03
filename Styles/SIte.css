@@ -1,0 +1,150 @@
+﻿body {
+    background-color: #fffbe5;
+    background-image: url(../Images/texture_1.png);
+    padding: 20px 0;
+    min-width: 960px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+body, select, input, textarea, button {
+    font-size: 13px;
+    color: #333;
+}
+
+*, td, th, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+
+    input[type=text], input[type=password], textarea, select {
+        padding: 4px;
+        background: #eee;
+        border: 1px solid;
+        border-color: #ddd #eee #eee #ddd;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+    }
+
+.horizontal > * {
+    float: left;
+}
+
+.horizontal {
+    overflow: auto;
+}
+
+.themeBackground {
+    background-color: #ff9900;
+}
+
+.themeColor {
+    color: #7ebd1e;
+}
+
+#wrapper {
+    width: 998px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    width: 960px;
+    min-height: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#site_logo {
+    width: 220px;
+    height: 60px;
+    margin: 30px 10px 30px 0;
+    text-indent: -1000em;
+    background: url("../Images/shoppica_logo.png") no-repeat center;
+    display: block;
+    float: left;
+}
+
+#search_bar > * {
+    margin-left: 10px;
+}
+
+#header_right {
+    margin-left: 230px;
+    padding-top: 30px;
+    overflow: auto;
+}
+
+    #header_right div {
+        float: right;
+        clear: both;
+        margin-bottom: 10px;
+    }
+
+#nav_list > li {
+    padding-left: 15px;
+    margin-left: 17px;
+    background-image: url(../Images/bullet_1.png);
+    background-position: 0 -3px;
+    background-color: #7ebd1e;
+}
+
+    #nav_list > li:hover {
+        color: #ff9900;
+    }
+
+#search-button {
+    width: 32px;
+    height: 32px;
+    background-image: url("../Images/icon_search.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: none;
+    text-indent: -1000em;
+}
+
+#menu {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+    #menu > ul > li > a {
+        padding: 0 10px;
+        color: rgb(255, 153, 0);
+        font-size: 16px;
+        letter-spacing: -1px;
+    }
+
+    #menu > ul > li:hover {
+        background-color: #ff9900;
+    }
+
+    #menu > ul > li > a:hover {
+        color: #fff;
+    }
+
+#menu_home {
+    background-image: url(../Images/menu_home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ddd;
+    text-indent: -10000em;
+    margin-right: 15px;
+}
