@@ -17,7 +17,12 @@ li {
     list-style-type: none;
 }
 
+ul {
+    padding-left: 10px;
+}
+
 a {
+    display: block;
     text-decoration: none;
     cursor: pointer;
     color: #333;
@@ -25,7 +30,7 @@ a {
 
 input.form-control, select.form-control, button.form-control {
     width: 150px;
-    height: 32px;
+    /*height: 32px;*/
 }
 
 a:hover {
@@ -49,14 +54,11 @@ ul.horizontal-r-list, ul.horizontal-l-list {
         float: left;
     }
 
-#register-login > li {
-    margin-left: 17px;
-    padding-left: 15px;
-    background-image: url('../Images/bullet_1.png');
-    background-repeat: no-repeat;
-    background-position: 0 -3px;
-    background-color: #7ebd1e;
+#listing img {
+    height: 180px;
+    width: 180px;
 }
+
 
 #main {
     width: 960px;
@@ -247,6 +249,15 @@ ul.horizontal-r-list, ul.horizontal-l-list {
         font-size: 11px;
     }
 
+    #filter {
+        border-left: 1px solid #eee;
+    }
+
+#filter h2 {
+    font-size: 20px;
+    color: #7ebd1e;
+}
+
 .categories-row {
     height: 100px;
 }
@@ -283,6 +294,32 @@ ul.horizontal-r-list, ul.horizontal-l-list {
 
 .container-padding {
     padding: 10px 30px;
+}
+
+div.left {
+    float: left;
+}
+
+.listing-description {
+    
+}
+
+ul.arrow > li {
+    margin-left: 0;
+    padding-left: 10px;
+    background-image: url('../Images/bullet_1.png');
+    background-repeat: no-repeat;
+    background-position: 0 -3px;
+    background-color: #7ebd1e;
+}
+
+ul.arrow-hor > li {
+    margin-left: 17px;
+    padding-left: 15px;
+    background-image: url('../Images/bullet_1.png');
+    background-repeat: no-repeat;
+    background-position: 0 -3px;
+    background-color: #7ebd1e;
 }
 
 .horizontal-banner {
